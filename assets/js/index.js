@@ -76,7 +76,7 @@ function renderAvatar(user) {
   $("#welcome").html("欢迎&nbsp;&nbsp" + name);
   // 按需求渲染用户的头像
   if (user.user_pic !== null) {
-    $(".layui-nav-img").atter("src", user.user_pic).show();
+    $(".layui-nav-img").attr("src", user.user_pic).show();
     $(".text-avatar").hide();
   } else {
     // 渲染文本头像
